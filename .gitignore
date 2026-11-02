@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Machine-specific files and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Generated datasets and experiment outputs
+/data/*
+!/data/README.md
+/results/*
+!/results/README.md
