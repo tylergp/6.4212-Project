@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="peg">
+    <!-- SI units. Uniform solid cylinder: mass 0.1 kg, radius 5 mm, length 50 mm. -->
+    <link name="peg_body">
+      <inertial>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0.0000214583333333</ixx>
+          <iyy>0.0000214583333333</iyy>
+          <izz>0.00000125</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyz>0</iyz>
+        </inertia>
+      </inertial>
+      <visual name="peg_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.005</radius>
+            <length>0.05</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0.2 0.5 0.9 1</diffuse>
+        </material>
+      </visual>
+      <collision name="peg_collision">
+        <geometry>
+          <cylinder>
+            <radius>0.005</radius>
+            <length>0.05</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+    <frame name="peg_base" attached_to="peg_body">
+      <pose>0 0 -0.025 0 0 0</pose>
+    </frame>
+    <frame name="peg_tip" attached_to="peg_body">
+      <pose>0 0 0.025 0 0 0</pose>
+    </frame>
+  </model>
+</sdf>

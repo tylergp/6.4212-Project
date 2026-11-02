@@ -30,5 +30,14 @@ extension after the state-based system works.
 Runtime dependencies and executable entry points will be documented as they
 are implemented. No runnable insertion simulation is included yet.
 
+The starter peg can be previewed in an environment with Drake installed:
+
+```bash
+python simulation/preview_peg.py
+```
+
+See `simulation/README.md` for robot attachment and `assets/README.md` for
+dimensions and coordinate frames.
+
 Keep source code and small configuration files in Git. Keep generated datasets,
 checkpoints, and videos outside commits; place selected report figures in `docs/`.
