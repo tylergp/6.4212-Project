@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<sdf version="1.7" xmlns:drake="http://drake.mit.edu">
+  <model name="socket">
+    <!-- Entrance at the body origin. Local +Z points into the through-hole. -->
+    <!-- Bore ID 11 mm. Mouth ID 13 mm. Lead-in 1 mm at 45 degrees. -->
+    <link name="socket_body">
+      <visual name="sector_00">
+        <pose>0 0 0 0 0 0.000000000000000</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_01">
+        <pose>0 0 0 0 0 0.261799387799149</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_02">
+        <pose>0 0 0 0 0 0.523598775598299</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_03">
+        <pose>0 0 0 0 0 0.785398163397448</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_04">
+        <pose>0 0 0 0 0 1.047197551196598</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_05">
+        <pose>0 0 0 0 0 1.308996938995747</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_06">
+        <pose>0 0 0 0 0 1.570796326794897</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_07">
+        <pose>0 0 0 0 0 1.832595714594046</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_08">
+        <pose>0 0 0 0 0 2.094395102393195</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_09">
+        <pose>0 0 0 0 0 2.356194490192345</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_10">
+        <pose>0 0 0 0 0 2.617993877991494</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_11">
+        <pose>0 0 0 0 0 2.879793265790644</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_12">
+        <pose>0 0 0 0 0 3.141592653589793</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_13">
+        <pose>0 0 0 0 0 3.403392041388943</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_14">
+        <pose>0 0 0 0 0 3.665191429188092</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_15">
+        <pose>0 0 0 0 0 3.926990816987241</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_16">
+        <pose>0 0 0 0 0 4.188790204786391</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_17">
+        <pose>0 0 0 0 0 4.450589592585541</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_18">
+        <pose>0 0 0 0 0 4.712388980384690</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_19">
+        <pose>0 0 0 0 0 4.974188368183839</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_20">
+        <pose>0 0 0 0 0 5.235987755982989</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_21">
+        <pose>0 0 0 0 0 5.497787143782138</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_22">
+        <pose>0 0 0 0 0 5.759586531581287</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <visual name="sector_23">
+        <pose>0 0 0 0 0 6.021385919380436</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+          </mesh>
+        </geometry>
+        <material><diffuse>0.5 0.55 0.6 1</diffuse></material>
+      </visual>
+      <collision name="sector_00">
+        <pose>0 0 0 0 0 0.000000000000000</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_01">
+        <pose>0 0 0 0 0 0.261799387799149</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_02">
+        <pose>0 0 0 0 0 0.523598775598299</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_03">
+        <pose>0 0 0 0 0 0.785398163397448</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_04">
+        <pose>0 0 0 0 0 1.047197551196598</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_05">
+        <pose>0 0 0 0 0 1.308996938995747</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_06">
+        <pose>0 0 0 0 0 1.570796326794897</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_07">
+        <pose>0 0 0 0 0 1.832595714594046</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_08">
+        <pose>0 0 0 0 0 2.094395102393195</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_09">
+        <pose>0 0 0 0 0 2.356194490192345</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_10">
+        <pose>0 0 0 0 0 2.617993877991494</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_11">
+        <pose>0 0 0 0 0 2.879793265790644</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_12">
+        <pose>0 0 0 0 0 3.141592653589793</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_13">
+        <pose>0 0 0 0 0 3.403392041388943</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_14">
+        <pose>0 0 0 0 0 3.665191429188092</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_15">
+        <pose>0 0 0 0 0 3.926990816987241</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_16">
+        <pose>0 0 0 0 0 4.188790204786391</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_17">
+        <pose>0 0 0 0 0 4.450589592585541</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_18">
+        <pose>0 0 0 0 0 4.712388980384690</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_19">
+        <pose>0 0 0 0 0 4.974188368183839</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_20">
+        <pose>0 0 0 0 0 5.235987755982989</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_21">
+        <pose>0 0 0 0 0 5.497787143782138</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_22">
+        <pose>0 0 0 0 0 5.759586531581287</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name="sector_23">
+        <pose>0 0 0 0 0 6.021385919380436</pose>
+        <geometry>
+          <mesh>
+            <uri>socket_sector.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
